@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../images/logo2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <div class="contenedor__contacto">
+      <!-- header nav -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="invierno.html">Invierno</a></li>
+            <img src="../images/logo2.png" title="Logo" />
+            <li><a href="verano.html">Verano</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main contacto -->
+      <form>
+        <fieldset class="formulario">
+          <legend class="formulario__encabezado">Formulario de contacto</legend>
+          <label class="formulario__titulo" for="nombre">Nombre</label>
+          <input class="formulario__boton" type="text" name="nombre" />
+          <label class="formulario__titulo" for="apellido">Apellido</label>
+          <input class="formulario__boton" type="text" name="apellido" />
+          <label class="formulario__titulo" for="edad">Edad</label>
+          <input class="formulario__boton" type="number" name="edad" />
+          <label class="formulario__titulo" for="mail">Email</label>
+          <input class="formulario__boton" type="email" name="mail" />
+          <label class="formulario__titulo" class="formulario__boton">Estacion</label>
+          <input class="formulario__boton--especial" type="radio" name="sexo" />Invierno
+          <input class="formulario__boton--especial" type="radio" name="sexo" />Verano
+          
+          <label class="formulario__titulo"> Deje su mensaje</label>
+          <textarea
+            class="formulario__mensaje"
+            name="Mensaje"
+            placeholder="Escriba aqui"
+          ></textarea>
+          <input
+            class="formulario__boton--especial"
+            type="submit"
+            value="enviar"
+          />
+          <input
+            class="formulario__boton--especial"
+            type="reset"
+            value="limpiar"
+          />
+        </fieldset>
+      </form>
+       <!-- footer -->
+       <footer>
+        <div class="footer__uno">
+          <p>®2022</p>
+        </div>
+        <div class="footer__dos">
+          <a href="">Inicio</a>
+        </div>
+        <div class="footer__tres">
+          <a href=""><img src="../images/logo facebook.png" alt="facebook" /></a>
+          <a href=""><img src="../images/instagram.png" alt="instagram" /></a>
+          <a href=""><img src="../images/whatsapp.png" alt="youtube" /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
