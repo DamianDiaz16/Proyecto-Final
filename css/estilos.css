@@ -28,7 +28,7 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-   background-color: rgba(255, 255, 255, 0.726); 
+  background-color: rgba(255, 255, 255, 0.726);
 }
 header nav ul li {
   margin: 10px;
@@ -39,10 +39,6 @@ nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 15px;
-}
-nav ul li a:hover {
-  color: purple;
-  transition: 1s;
 }
 
 /* main inicio */
@@ -125,7 +121,7 @@ h1 {
   justify-content: end;
 }
 .card__verano--ciclismoTexto {
-  color:white;
+  color: white;
   width: 300px;
   height: 300px;
   margin-right: 200px;
@@ -259,7 +255,7 @@ h1 {
 
 /* main equipo */
 
-.equipo__imagen{
+.equipo__imagen {
   position: fixed;
   min-height: 100vh;
   min-height: 100vw;
@@ -270,17 +266,16 @@ h1 {
   opacity: 0.3;
 }
 
-.equipo__titulo{
+.equipo__titulo {
   text-align: center;
   font-size: 40px;
   font-style: italic;
   margin-top: 30px;
- 
 }
 
-.equipo__guia{
+.equipo__guia {
   display: grid;
-  grid-template-columns:25% 75%;
+  grid-template-columns: 25% 75%;
   grid-template-rows: 80% 20%;
 }
 .equipo__guia--imagen {
@@ -291,10 +286,9 @@ h1 {
   margin-left: 10px;
   justify-self: center;
   border-radius: 10px;
-
 }
 
-.equipo__guia h3{
+.equipo__guia h3 {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: 25px;
@@ -303,7 +297,7 @@ h1 {
   margin-top: 20px;
   margin-left: 10px;
 }
-.equipo__guia p{
+.equipo__guia p {
   grid-column: 2/3;
   grid-row: 1/2;
   font-size: 15px;
@@ -311,12 +305,11 @@ h1 {
   text-align: justify;
   width: 300px;
 }
-.linkedin{
+.linkedin {
   height: 20px;
-  
 }
 
-.equipo a{
+.equipo a {
   grid-column: 1/2;
   grid-row: 2/3;
   align-self: center;
@@ -327,14 +320,13 @@ h1 {
 .equipo__guiaSki a {
   grid-column: 2/3;
 }
-  
 
-.equipo__guiaSnow{
+.equipo__guiaSnow {
   display: grid;
-  grid-template-columns:25% 75% ;
+  grid-template-columns: 25% 75%;
   grid-template-rows: 80% 20%;
 }
-.equipo__guiaSnow--imagen{
+.equipo__guiaSnow--imagen {
   grid-column: 1/2;
   grid-row: 1/2;
   height: 200px;
@@ -342,10 +334,9 @@ h1 {
   margin-left: 10px;
   justify-self: center;
   border-radius: 10px;
-
 }
 
-.equipo__guiaSnow h3{
+.equipo__guiaSnow h3 {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: 25px;
@@ -354,7 +345,7 @@ h1 {
   margin-top: 20px;
   margin-left: 10px;
 }
-.equipo__guiaSnow p{
+.equipo__guiaSnow p {
   grid-column: 2/3;
   grid-row: 1/2;
   font-size: 15px;
@@ -363,22 +354,21 @@ h1 {
   width: 300px;
 }
 
-.equipo__guiaSki{
+.equipo__guiaSki {
   display: grid;
-  grid-template-columns:75% 25%;
+  grid-template-columns: 75% 25%;
   grid-template-rows: 80% 20%;
 }
-.equipo__guiaSki--imagen{
+.equipo__guiaSki--imagen {
   grid-column: 2/3;
   grid-row: 1/2;
   height: 200px;
   width: 300px;
   justify-self: center;
   border-radius: 10px;
-
 }
 
-.equipo__guiaSki h3{
+.equipo__guiaSki h3 {
   grid-column: 2/3;
   grid-row: 2/3;
   font-size: 25px;
@@ -386,7 +376,7 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
-.equipo__guiaSki p{
+.equipo__guiaSki p {
   grid-column: 1/2;
   grid-row: 1/2;
   font-size: 15px;
@@ -464,64 +454,4 @@ footer {
 .footer__tres {
   display: flex;
   justify-content: space-around;
-}
-
-/* 360 */
-
-@media (max-width: 360px) {
-  .cards__verano {
-    grid-template-areas:
-      "ciclismo"
-      "trekking"
-      "3dias"
-      "7dias"
-      "15dias";
-  }
-  .card__verano--ciclismoTexto {
-    margin-top: 50px;
-    margin-left: 200px;
-  }
-
-  .card__verano--trekkingTexto {
-    margin-left: 200px;
-  }
-
-  .cards__verano p {
-    margin: 20px;
-  }
-  .footer__index {
-    margin-top: 320px;
-    width: 600px;
-  }
-
-  nav ul {
-    width: 700px;
-  }
-
-  .equipo__imagen{
-    
-    min-height: 100%;
-    min-height: 100%;
-  }
-
-  .equipo__guia{
-    grid-template-columns: 1fr;
-  }
-  .equipo__guiaSnow{
-    grid-template-columns: 1fr;
-  }
-  .equipo__guiaSki{
-    grid-template-columns: 1fr;
-  }
-
-.equipo p{
-  font-size: 0;
-}
-.equipo__titulo{
-  margin-left: 400px;
-}
-.footer__equipo{
-  width: 600px;
-}
-
 }
