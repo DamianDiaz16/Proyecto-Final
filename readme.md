@@ -1,5 +1,5 @@
 
-<img src="images/ski.jpg>
+<img src="images/ski.jpg">
 
 # Proyecto Final
 
