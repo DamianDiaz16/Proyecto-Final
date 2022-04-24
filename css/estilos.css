@@ -461,7 +461,7 @@ footer {
 }
 
 /* mediaquery 360px */
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   nav ul {
     width: 700px;
   }
