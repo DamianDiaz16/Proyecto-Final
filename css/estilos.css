@@ -459,3 +459,82 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+
+/* mediaquery 360px */
+@media (max-width: 360px) {
+  nav ul {
+    width: 700px;
+  }
+
+  .footer__index {
+    margin-top: 320px;
+    width: 600px;
+  }
+
+  .cards__verano {
+    grid-template-areas:
+      "ciclismo"
+      "trekking"
+      "3dias"
+      "7dias"
+      "15dias";
+  }
+  .card__verano--ciclismoTexto {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+
+  .card__verano--trekkingTexto {
+    margin-left: 200px;
+  }
+
+  .cards__verano p {
+    margin: 20px;
+  }
+
+  .cards__invierno {
+    grid-template-areas:
+      "ski"
+      "snowboard"
+      "3dias"
+      "7dias"
+      "15dias";
+  }
+  .cards__invierno p {
+    margin: 20px;
+  }
+
+  .equipo__imagen {
+    min-height: 100%;
+    min-height: 100%;
+  }
+
+  .equipo__guia {
+    grid-template-columns: 1fr;
+  }
+  .equipo__guiaSnow {
+    grid-template-columns: 1fr;
+  }
+  .equipo__guiaSki {
+    grid-template-columns: 1fr;
+  }
+
+  .equipo p {
+    font-size: 0;
+  }
+  .equipo__titulo {
+    margin-left: 400px;
+  }
+  .footer__equipo {
+    width: 600px;
+  }
+
+  .formulario {
+    margin-left: 200px;
+    font-size: 2rem;
+  }
+  .footer__contacto {
+    width: 600px;
+    margin-top: 200px;
+  }
+}
