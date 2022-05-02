@@ -308,6 +308,7 @@ h1 {
   align-self: center;
   text-align: justify;
   width: 300px;
+  margin-left: 30px;
 }
 .linkedin {
   height: 20px;
@@ -356,6 +357,7 @@ h1 {
   align-self: center;
   text-align: justify;
   width: 300px;
+  
 }
 
 .equipo__guiaSki {
@@ -387,7 +389,7 @@ h1 {
   align-self: center;
   justify-self: end;
   text-align: justify;
-  margin-right: 20px;
+  margin-right: 50px;
   width: 300px;
 }
 
